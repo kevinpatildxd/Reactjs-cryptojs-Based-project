@@ -1,0 +1,31 @@
+/* // File: src/App.css */
+.app {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+.entry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.entry-form textarea {
+  height: 80px;
+  resize: none;
+}
+.entries .entry {
+  background: white;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+.unlock-screen {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}

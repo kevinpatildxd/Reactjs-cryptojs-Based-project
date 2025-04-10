@@ -1,0 +1,11 @@
+/* // 📁 src/index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e9ecef;
+  color: #333;
+  font-family: sans-serif;
+}

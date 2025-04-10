@@ -1,0 +1,51 @@
+/* // 📁 src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f3f3f3;
+}
+.app {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+.auth {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  margin-top: 100px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input {
+  padding: 10px;
+  margin: 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.notes li {
+  list-style: none;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.logout {
+  float: right;
+  background: red;
+  color: white;
+  border: none;
+}
+.link {
+  color: blue;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: underline;
+}
